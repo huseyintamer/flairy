@@ -1,0 +1,27 @@
+{
+  "name": "flairy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-geolocation-service": "^2.0.0",
+    "react-native-google-places": "^2.5.2",
+    "react-native-maps": "^0.21.0",
+    "react-native-maps-directions": "^1.6.0",
+    "react-native-router-flux": "^4.0.6"
+  },
+  "devDependencies": {
+    "babel-jest": "24.5.0",
+    "babel-preset-react-native": "^5",
+    "jest": "24.5.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
